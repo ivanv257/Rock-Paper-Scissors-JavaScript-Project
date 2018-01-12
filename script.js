@@ -1,5 +1,5 @@
 /* JavaScript Rock Paper Scissors Project
-by Ivan van der Merwe */
+Developer: Ivan van der Merwe */
 
 /* set prompt for userChoice and Math.random
 for conditional statement for computer choice. */
@@ -31,6 +31,6 @@ let computerChoice = Math.random();
 
 let compare = (choice1, choice2) => {
   if (choice1 === choice2){
-    return "Both selected the same result, play again."
+    return "Both selected the same result, play again.";
   }
 }
