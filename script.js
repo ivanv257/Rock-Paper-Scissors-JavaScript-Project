@@ -31,6 +31,27 @@ let computerChoice = Math.random();
 
 let compare = (choice1, choice2) => {
   if (choice1 === choice2){
-    return "Both selected the same result, play again.";
-  }
-}
+        return "Both selected the same result, play again.";
+    } if (choice1 === "rock" && choice2 === "scissors"){
+        return "You win!";
+    } else {
+        return "You lose, play again";
+    }
+
+  if (choice1 === "paper" && choice2 === "rock") {
+        return "You win!";
+    } else {
+        return "You lose, play again";
+    }
+
+    if (choice1 === "scissors" && choice2 === "rock") {
+          return "You lose, play again";
+      } else {
+          return "You win!";
+      }
+ };
+
+let results = compare(userChoice,computerChoice);
+
+
+document.write(`<br /> ${results}`);
