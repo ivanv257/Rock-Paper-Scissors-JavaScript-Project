@@ -24,7 +24,7 @@ let computerChoice = Math.random();
     }
 
 //Show computer choice
-  document.write(`<p>The robot chooses ${computerChoice}</p>`);
+  document.write(`<p>The Robot chooses ${computerChoice}</p>`);
 
 
 // Choose the winner (Compare Choice)
