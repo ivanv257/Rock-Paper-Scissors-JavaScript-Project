@@ -30,7 +30,7 @@ let compare = (choice1, choice2) => {
         return "You lose, play again";
     }
 
-    if (choice1 === "scissors" && choice2 === "rock") {
+  if (choice1 === "scissors" && choice2 === "rock") {
           return "You lose, play again";
       } else {
           return "You win!";
