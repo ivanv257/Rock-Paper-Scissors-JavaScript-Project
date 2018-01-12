@@ -3,7 +3,7 @@ Developer: Ivan van der Merwe */
 
 /* set prompt for userChoice and Math.random
 for conditional statement for computer choice. */
-let userChoice = prompt("Rock, Paper or Scissors?");
+let userChoice = prompt("Choose your Weapon: Rock, Paper or Scissors?");
 
   if (! userChoice) {
       document.write("<p>Please enter a correct value</p>");
