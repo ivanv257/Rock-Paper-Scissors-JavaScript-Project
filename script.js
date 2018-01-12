@@ -1,8 +1,7 @@
 /* JavaScript Rock Paper Scissors Project
 Developer: Ivan van der Merwe */
 
-/* set prompt for userChoice and Math.random
-for conditional statement for computer choice. */
+// set prompt for userChoice
 let userChoice = prompt("Choose your Weapon: Rock, Paper or Scissors?");
 
   if (! userChoice) {
@@ -12,7 +11,6 @@ let userChoice = prompt("Choose your Weapon: Rock, Paper or Scissors?");
     }
 
 // Computer choice
-//To be Converted to switch statement
 let computerChoice = Math.random();
 
   if (computerChoice < 0.34){
@@ -44,7 +42,7 @@ let compare = (choice1, choice2) => {
         return "You lose, play again";
     }
 
-    if (choice1 === "scissors" && choice2 === "rock") {
+  if (choice1 === "scissors" && choice2 === "rock") {
           return "You lose, play again";
       } else {
           return "You win!";
