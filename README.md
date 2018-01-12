@@ -1,4 +1,4 @@
-<h1>Rock Paper Scissors</h1>
+<h1>Choose your Weapon: Rock, Paper, Scissors</h1>
 
 Developer: Ivan van der Merwe <br>
 Date started: 9 January 2018
