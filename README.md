@@ -1,6 +1,6 @@
 <h1>Choose your Weapon: Rock, Paper, Scissors</h1>
 <br />
-<img src="https://pxt.azureedge.net/blob/68f66c3ddc3acfc4c53157abf92eace202d46db2/static/courses/csintro/conditionals/rock-paper-scissors-items.png" alt="Rock, Paper, Scissors">
+<img src="https://pxt.azureedge.net/blob/68f66c3ddc3acfc4c53157abf92eace202d46db2/static/courses/csintro/conditionals/rock-paper-scissors-items.png" alt="Rock, Paper, Scissors" width="336" height="193.5">
 
 
 <br />
