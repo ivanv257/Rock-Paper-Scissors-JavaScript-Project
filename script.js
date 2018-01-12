@@ -50,8 +50,8 @@ let compare = (choice1, choice2) => {
           return "You win!";
       }
  };
-
+// run the comparison function
 let results = compare(userChoice,computerChoice);
 
-
+// print the results to the screen.
 document.write(`<br /> ${results}`);
