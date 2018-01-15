@@ -24,7 +24,7 @@ if (computerChoice < 0.34) {
 //Show computer choice
 document.write(`<p>The Robot chooses ${computerChoice}</p>`);
 
-// Choose the winner (Compare Choice)
+// Choose the winner (Compare Choice) see if a switch statement would be applicable. 
 
 let compare = (choice1, choice2) => {
   if (choice1 === choice2) {
