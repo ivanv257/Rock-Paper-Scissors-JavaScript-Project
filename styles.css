@@ -48,16 +48,24 @@ table {
 
 /* reset template end - start for Ivan's CSS */
 
+@import url('https://fonts.googleapis.com/css?family=Abel');
 
+*	{
+	font-family: 'Abel', sans-serif;
+	}
 
 .navigation {
   float: right;
+	position: absolute;
 }
 
 .navigation ul li {
-  display: inline-block;
+  display: inline;
   right: 0px;
 	margin-top: 10px;
+	font-family: 'Abel', sans-serif;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .navigation li a {
@@ -67,12 +75,12 @@ table {
 
 
 .buttonContainer {
-	top: 50px;
 	text-align: center;
+	margin-top: 30px;
 }
 
 .buttonContainer button {
-
+	text-align: center;
 }
 
 
