@@ -45,7 +45,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /* reset template end - start for Ivan's CSS */
+
+
 
 navigation {
   float: right;
@@ -53,8 +56,12 @@ navigation {
 
 navigation ul li {
   display: inline-block;
+  margin-right: 30px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 navigation li a {
   text-decoration: none;
+  color: #444444;
 }
