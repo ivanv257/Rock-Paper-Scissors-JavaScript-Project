@@ -50,18 +50,39 @@ table {
 
 
 
-navigation {
+.navigation {
   float: right;
 }
 
-navigation ul li {
+.navigation ul li {
   display: inline-block;
-  margin-right: 30px;
-  padding-right: 25px;
-  padding-left: 25px;
+  right: 0px;
+	margin-top: 10px;
 }
 
-navigation li a {
+.navigation li a {
   text-decoration: none;
   color: #444444;
 }
+
+
+.buttonContainer {
+	top: 50px;
+	text-align: center;
+}
+
+.buttonContainer button {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
