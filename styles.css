@@ -1,5 +1,8 @@
-/* CSS Styles for Choose Your Weapon
-Developer: Ivan van der Merwe
+/* styles for DOM manipulation practise */
+/* Reset pre-defining margins and other */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -45,52 +48,29 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* reset template end - start for Ivan's CSS */
 
-@import url('https://fonts.googleapis.com/css?family=Abel');
 
-*	{
-	font-family: 'Abel', sans-serif;
-	}
 
-.navigation {
-  float: right;
-	position: absolute;
+.headerContainer {
+  width: 100%;
 }
 
-.navigation ul li {
-  display: inline;
-  right: 0px;
-	margin-top: 10px;
-	font-family: 'Abel', sans-serif;
-	padding-right: 15px;
-	padding-left: 15px;
-}
-
-.navigation li a {
-  text-decoration: none;
+.headerContainer h3 {
+  padding-top: 35px;
+  text-align: center;
   color: #444444;
 }
 
-
-.buttonContainer {
-	text-align: center;
-	margin-top: 30px;
+.navigation ul {
+  text-align: center;
 }
 
-.buttonContainer button {
-	text-align: center;
+.navigation ul li {
+  display: inline-block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.navigation ul li a {
+  text-decoration: none;
+  color: #444444;
+}

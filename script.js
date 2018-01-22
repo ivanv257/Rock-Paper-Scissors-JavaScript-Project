@@ -4,16 +4,13 @@ Developer: Ivan van der Merwe */
 // set prompt for userChoice
 /* freeeezeee code
 let userChoice = prompt("Choose your Weapon: Rock, Paper or Scissors?");
-
 if (!userChoice) {
   document.write("<p>Please enter a correct value</p>");
 } else {
   document.write(`You choose ${userChoice}`);
 }
-
 // Computer choice
 let computerChoice = Math.random();
-
 if (computerChoice < 0.34) {
   computerChoice = "paper";
 } else if (computerChoice <= 0.67) {
@@ -21,12 +18,9 @@ if (computerChoice < 0.34) {
 } else {
   computerChoice = "rock";
 }
-
 //Show computer choice
 document.write(`<p>The Robot chooses ${computerChoice}</p>`);
-
 // Choose the winner (Compare Choice) see if a switch statement would be applicable. 
-
 let compare = (choice1, choice2) => {
   if (choice1 === choice2) {
     return "Both selected the same result, play again.";
@@ -36,13 +30,11 @@ let compare = (choice1, choice2) => {
   } else {
     return "You lose, play again";
   }
-
   if (choice1 === "paper" && choice2 === "rock") {
     return "You win!";
   } else {
     return "You lose, play again";
   }
-
   if (choice1 === "scissors" && choice2 === "rock") {
     return "You lose, play again";
   } else {
@@ -51,8 +43,6 @@ let compare = (choice1, choice2) => {
 };
 // run the comparison function
 let results = compare(userChoice, computerChoice);
-
 // print the results to the screen.
 document.write(`<br /> ${results}`);
-
 */
