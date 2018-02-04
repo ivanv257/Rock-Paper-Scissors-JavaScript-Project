@@ -2,7 +2,7 @@
 Developer: Ivan van der Merwe */
 
 // set prompt for userChoice
-/* freeeezeee code
+
 let userChoice = prompt("Choose your Weapon: Rock, Paper or Scissors?");
 if (!userChoice) {
   document.write("<p>Please enter a correct value</p>");
@@ -45,4 +45,3 @@ let compare = (choice1, choice2) => {
 let results = compare(userChoice, computerChoice);
 // print the results to the screen.
 document.write(`<br /> ${results}`);
-*/
