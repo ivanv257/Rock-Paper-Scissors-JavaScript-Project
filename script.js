@@ -2,11 +2,24 @@
 Developer: Ivan van der Merwe */
 
 
-const playerSelection = () => {
-  const playerChoiceRock = document.querySelector('#rock');
-  const playerChoicePaper = document.querySelector('#paper');
-  const playerChoiceScissors = document.querySelector('#scissors');
+const playerChoiceRock = document.querySelector('#rock');
+const playerChoicePaper = document.querySelector('#paper');
+const playerChoiceScissors = document.querySelector('#scissors');
 
+const playerSelection = () => {
+  if (playerChoiceRock) {
+    playerChoiceRock.addEventListener('click', function() {
+      return 'rock';
+    })
+  } else if (playerChoicePaper) {
+    playerChoicePaper.addEventListener('click', function() {
+      return 'paper';
+    })
+  } else if (playerChoiceScissors) {
+    playerChoiceScissors.addEventListener('click', function() {
+      return 'scissors';
+    })
+  }
 }
 
 
