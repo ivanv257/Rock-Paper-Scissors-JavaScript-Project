@@ -2,8 +2,15 @@
 Developer: Ivan van der Merwe */
 
 
+const playerSelection = () => {
+  const playerChoiceRock = document.querySelector('#rock');
+  const playerChoicePaper = document.querySelector('#paper');
+  const playerChoiceScissors = document.querySelector('#scissors');
 
-const playerSelection = prompt('Choose rock, paper, or scissors.');
+}
+
+
+
 
 
 // Generate random Computer selection
