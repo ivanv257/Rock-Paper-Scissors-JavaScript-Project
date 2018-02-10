@@ -6,6 +6,7 @@ const playerChoiceRock = document.querySelector('#rock');
 const playerChoicePaper = document.querySelector('#paper');
 const playerChoiceScissors = document.querySelector('#scissors');
 
+// Event listener added for button selection
 const playerSelection = () => {
   if (playerChoiceRock) {
     playerChoiceRock.addEventListener('click', function() {
