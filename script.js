@@ -16,7 +16,7 @@ function computerChoice(){
 }
 
 const playerSelection = prompt('Please select rock, paper or scissors.')
-const computerSelection = computerPlay();
+const computerSelection = computerChoice();
 
 function playRound(playerSelection, computerSelection){
   if (playerSelection == computerSelection){
