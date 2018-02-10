@@ -1,6 +1,8 @@
 /* JavaScript Rock Paper Scissors Project
 Developer: Ivan van der Merwe */
 
+
+//randomly choose computerChoice
 function computerChoice(){
   let randomCount = Math.random();
   
@@ -10,5 +12,20 @@ function computerChoice(){
   return 'paper';
 } else {
   return 'scissors';
+}
+}
+
+const playerSelection = prompt('Please select rock, paper or scissors.')
+const computerSelection = computerPlay();
+
+function playRound(playerSelection, computerSelection){
+  if (playerSelection == computerSelection){
+    return 'It is a tie';
+} else if (playerSelection == 'rock' && computerSelection == 'paper'){
+    return 'Computer wins!';
+} else if (playerSelection == 'rock' && computerSelection == 'scissors'){
+    return 'You win!';
+} else if (playerSelection == 'paper' && computerSelection == 'rock'){
+    return 'You win!';
 }
 }
