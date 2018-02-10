@@ -2,16 +2,11 @@
 Developer: Ivan van der Merwe */
 
 
-//randomly choose computerChoice
- 
 
 const playerSelection = prompt('Choose rock, paper, or scissors.');
 
 
-
-
-
-
+// Generate random Computer selection
 let computerSelection = () => {
   let randomCount = Math.random();
 
@@ -24,6 +19,8 @@ let computerSelection = () => {
   }
 }
 
+
+// Compare the player choice versus the computer choice and return the result
 function playRound(playerSelection, computerSelection) {
   if (playerSelection === computerSelection) {
     return 'It is a tie';
@@ -33,11 +30,12 @@ function playRound(playerSelection, computerSelection) {
     return 'You win!';
   } else if (playerSelection === 'paper' && computerSelection === 'rock') {
     return 'You win!';
-  } else if (playerSelection === 'scissors' && computerSelection === 'rock'){
-    return 'Computer wins!'; 
-  } else if (playerSelection === 'scissors' && computerSelection === 'paper'){
+  } else if (playerSelection === 'scissors' && computerSelection === 'rock') {
+    return 'Computer wins!';
+  } else if (playerSelection === 'scissors' && computerSelection === 'paper') {
     return 'You win!';
   }
 }
 
+// Initilise the game. 
 playRound(playerSelection, computerSelection());
