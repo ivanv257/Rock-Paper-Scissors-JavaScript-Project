@@ -15,15 +15,18 @@ const paraComputerResult = document.querySelector('#computerResult');
 const playerSelection = () => {
   if (playerChoiceRock) {
     playerChoiceRock.addEventListener('click', function() {
-      return paraUserResult.textContent = 'rock';
+      paraUserResult.textContent = 'User selects rock';
+      return 'rock';
     })
   } else if (playerChoicePaper) {
     playerChoicePaper.addEventListener('click', function() {
-      return paraUserResult.textContent = 'paper';
+      paraUserResult.textContent = 'User selects paper';
+      return 'paper';
     })
   } else if (playerChoiceScissors) {
     playerChoiceScissors.addEventListener('click', function() {
-      return paraUserResult.textContent = 'scissors';
+      paraUserResult.textContent = 'User selects scissors';
+      return 'scissors';
     })
   }
 }
