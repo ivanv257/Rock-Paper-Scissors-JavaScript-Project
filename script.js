@@ -6,19 +6,24 @@ const playerChoiceRock = document.querySelector('#rock');
 const playerChoicePaper = document.querySelector('#paper');
 const playerChoiceScissors = document.querySelector('#scissors');
 
+const paraUserResult = document.querySelector('#userResult');
+const paraComputerResult = document.querySelector('#computerResult');
+
+
+
 // Event listener added for button selection
 const playerSelection = () => {
   if (playerChoiceRock) {
     playerChoiceRock.addEventListener('click', function() {
-      return 'rock';
+      return paraUserResult.textContent = 'rock';
     })
   } else if (playerChoicePaper) {
     playerChoicePaper.addEventListener('click', function() {
-      return 'paper';
+      return paraUserResult.textContent = 'paper';
     })
   } else if (playerChoiceScissors) {
     playerChoiceScissors.addEventListener('click', function() {
-      return 'scissors';
+      return paraUserResult.textContent = 'scissors';
     })
   }
 }
