@@ -4,7 +4,7 @@ Developer: Ivan van der Merwe */
 
 //randomly choose computerChoice
 
-const playerSelection = 'rock';
+const playerSelection = prompt('Choose rock, paper, or scissors.');
 
 let computerSelection = () => {
   let randomCount = Math.random();
