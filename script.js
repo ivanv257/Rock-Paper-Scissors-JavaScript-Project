@@ -3,8 +3,14 @@ Developer: Ivan van der Merwe */
 
 
 //randomly choose computerChoice
+ 
 
 const playerSelection = prompt('Choose rock, paper, or scissors.');
+
+
+
+
+
 
 let computerSelection = () => {
   let randomCount = Math.random();
@@ -26,6 +32,10 @@ function playRound(playerSelection, computerSelection) {
   } else if (playerSelection === 'rock' && computerSelection === 'scissors') {
     return 'You win!';
   } else if (playerSelection === 'paper' && computerSelection === 'rock') {
+    return 'You win!';
+  } else if (playerSelection === 'scissors' && computerSelection === 'rock'){
+    return 'Computer wins!'; 
+  } else if (playerSelection === 'scissors' && computerSelection === 'paper'){
     return 'You win!';
   }
 }
