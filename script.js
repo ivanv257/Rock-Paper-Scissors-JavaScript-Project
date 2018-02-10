@@ -67,4 +67,4 @@ function playRound(playerSelection, computerSelection) {
 }
 
 // Initilise the game. 
-playRound(playerSelection, computerSelection());
+playRound(playerSelection(), computerSelection());
