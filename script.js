@@ -29,3 +29,5 @@ function playRound(playerSelection, computerSelection){
     return 'You win!';
 }
 }
+
+playRound(playerSelection, computerSelection());
