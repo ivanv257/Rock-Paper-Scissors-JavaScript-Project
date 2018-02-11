@@ -38,10 +38,13 @@ let computerSelection = () => {
   let randomCount = Math.random();
 
   if (randomCount < 0.34) {
+    paraComputerResult.textContent = 'Computer selects rock';
     return 'rock';
   } else if (randomCount > 0.34 && randomCount < 0.68) {
+    paraComputerResult.textContent = 'Computer selects paper';
     return 'paper';
   } else {
+    paraComputerResult.textContent = 'Computer selects paper';
     return 'scissors';
   }
 }
