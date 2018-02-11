@@ -12,24 +12,22 @@ const paraComputerResult = document.querySelector('#computerResult');
 
 
 // Event listener added for button selection
-const playerSelection = () => {
-  if (playerChoiceRock) {
+
     playerChoiceRock.addEventListener('click', function() {
       paraUserResult.textContent = 'User selects rock';
       return 'rock';
     })
-  } else if (playerChoicePaper) {
+
     playerChoicePaper.addEventListener('click', function() {
       paraUserResult.textContent = 'User selects paper';
       return 'paper';
     })
-  } else if (playerChoiceScissors) {
+   
     playerChoiceScissors.addEventListener('click', function() {
       paraUserResult.textContent = 'User selects scissors';
       return 'scissors';
     })
-  }
-}
+  
 
 
 
