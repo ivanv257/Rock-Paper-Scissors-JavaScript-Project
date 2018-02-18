@@ -44,6 +44,8 @@ let playRound = (playerSelection, computerSelection) => {
     return 'Computer wins!';
   } else if (playerSelection === 'scissors' && computerSelection === 'paper') {
     return 'You win!';
+  } else if (playerSelection === 'paper' && computerSelection === 'scissors') {
+    return 'You lose!';
   }
 }
 
