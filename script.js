@@ -10,24 +10,7 @@ const paraUserResult = document.querySelector('#userResult');
 const paraComputerResult = document.querySelector('#computerResult');
 
 
-
-// Event listener added for button selection
-
-    playerChoiceRock.addEventListener('click', () => {
-      paraUserResult.textContent = playRound('rock', computerSelection());
-      })
-
-    playerChoicePaper.addEventListener('click', () => {
-      paraUserResult.textContent = playRound('paper', computerSelection());
-    })
-   
-    playerChoiceScissors.addEventListener('click', () => {
-      paraUserResult.textContent = playRound('scissors', computerSelection());
-    })
   
-
-
-
 
 
 // Generate random Computer selection
@@ -63,4 +46,18 @@ function playRound(playerSelection, computerSelection) {
     return 'You win!';
   }
 }
+
+// Event listener added for button selection
+
+    playerChoiceRock.addEventListener('click', () => {
+      paraUserResult.textContent = playRound('rock', computerSelection());
+      })
+
+    playerChoicePaper.addEventListener('click', () => {
+      paraUserResult.textContent = playRound('paper', computerSelection());
+    })
+   
+    playerChoiceScissors.addEventListener('click', () => {
+      paraUserResult.textContent = playRound('scissors', computerSelection());
+    })
 
