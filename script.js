@@ -13,19 +13,16 @@ const paraComputerResult = document.querySelector('#computerResult');
 
 // Event listener added for button selection
 
-    playerChoiceRock.addEventListener('click', function() {
-      paraUserResult.textContent = 'User selects rock';
-      return 'rock';
-    })
+    playerChoiceRock.addEventListener('click', () => {
+      paraUserResult.textContent = playRound('rock', computerSelection());
+      })
 
-    playerChoicePaper.addEventListener('click', function() {
-      paraUserResult.textContent = 'User selects paper';
-      return 'paper';
+    playerChoicePaper.addEventListener('click', () => {
+      paraUserResult.textContent = playRound('paper', computerSelection());
     })
    
-    playerChoiceScissors.addEventListener('click', function() {
-      paraUserResult.textContent = 'User selects scissors';
-      return 'scissors';
+    playerChoiceScissors.addEventListener('click', () => {
+      paraUserResult.textContent = playRound('scissors', computerSelection());
     })
   
 
@@ -67,5 +64,3 @@ function playRound(playerSelection, computerSelection) {
   }
 }
 
-// Initilise the game. 
-playRound(playerSelection(), computerSelection());
