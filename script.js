@@ -24,7 +24,7 @@ let computerSelection = () => {
     paraComputerResult.textContent = 'Computer selects paper';
     return 'paper';
   } else {
-    paraComputerResult.textContent = 'Computer selects paper';
+    paraComputerResult.textContent = 'Computer selects scissors';
     return 'scissors';
   }
 }
