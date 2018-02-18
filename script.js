@@ -31,7 +31,7 @@ let computerSelection = () => {
 
 
 // Compare the player choice versus the computer choice and return the result
-function playRound(playerSelection, computerSelection) {
+let playRound = (playerSelection, computerSelection) => {
   if (playerSelection === computerSelection) {
     return 'It is a tie';
   } else if (playerSelection === 'rock' && computerSelection === 'paper') {
