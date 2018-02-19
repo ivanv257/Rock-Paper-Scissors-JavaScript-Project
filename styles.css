@@ -201,6 +201,8 @@ button:hover {
 
 .results {
 	text-align: center;
+	color: #444444;
+	font-size: 20px;
 }
 
 /* Footer containing countries for Google */
