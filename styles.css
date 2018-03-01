@@ -199,6 +199,7 @@ button:hover {
 	color: black;
 }
 
+/* Button background Colors */ 
 #rock {
 	background-color: #99ffcc;
 }
@@ -210,6 +211,7 @@ button:hover {
 #scissors {
 	background-color: #99ccff;
 }
+
 
 .results {
 	margin-top: 50px;
