@@ -203,6 +203,14 @@ button:hover {
 	background-color: #99ffcc;
 }
 
+#paper {
+	background-color: #ff9999;
+}
+
+#scissors {
+	background-color: #99ccff;
+}
+
 .results {
 	margin-top: 50px;
 	text-align: center;
