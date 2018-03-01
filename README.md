@@ -6,14 +6,14 @@ From The Odin Project's <a href="http://www.theodinproject.com">Curriculum</a> <
 
 <h2>Syntax</h2>
 <h3>Generate Random Computer Choice</h3>
-<pre>
+
 let computerSelection = () => {
   let randomCount = Math.random();
 
   if (randomCount < 0.34) {
     paraComputerResult.textContent = 'Computer selects rock';
-    <span class="pl-k">return<span> 'rock';
-</pre>
+    return 'rock';
+
 <h3>Compare User and Computer choice</h3>
 <pre>
 let playRound = (playerSelection, computerSelection) => {
