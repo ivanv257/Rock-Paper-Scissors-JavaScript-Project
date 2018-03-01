@@ -15,31 +15,18 @@ let computerSelection = () => {
     return 'rock';
 
 <h3>Compare User and Computer choice</h3>
-<pre>
+```javascript
 let playRound = (playerSelection, computerSelection) => {
   if (playerSelection === computerSelection) {
     return 'It is a tie';
   } else if (playerSelection === 'rock' && computerSelection === 'paper') {
     return 'Computer wins!';
-</pre>
-
-```javascript
-import ReactCSSTransitionReplace from 'react-css-transition-replace';
-
-render() {
-  return (
-    <ReactCSSTransitionReplace transitionName="cross-fade" 
-                               transitionEnterTimeout={1000} transitionLeaveTimeout={1000}>
-      <SomeComponent key="uniqueValue"/>
-    </ReactCSSTransitionReplace>
-  );
-}
 ```
+
 
 <h2>Demo</h2>
 Link to Choose You Weapon Game --> <a href="https://ivanv257.github.io/Rock-Paper-Scissors-JavaScript-Project/">Play Now</a>
 
-blah
 
 
 
