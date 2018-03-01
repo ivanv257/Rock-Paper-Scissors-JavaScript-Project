@@ -39,7 +39,7 @@ render() {
 <h2>Demo</h2>
 Link to Choose You Weapon Game --> <a href="https://ivanv257.github.io/Rock-Paper-Scissors-JavaScript-Project/">Play Now</a>
 
-
+blah
 
 
 
