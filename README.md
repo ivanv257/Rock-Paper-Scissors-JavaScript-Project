@@ -12,7 +12,7 @@ let computerSelection = () => {
 
   if (randomCount < 0.34) {
     paraComputerResult.textContent = 'Computer selects rock';
-    return 'rock';
+    <span class="pl-k">return<span> 'rock';
 </pre>
 <h3>Compare User and Computer choice</h3>
 <pre>
