@@ -199,6 +199,10 @@ button:hover {
 	color: black;
 }
 
+#rock {
+	background-color: #99ffcc;
+}
+
 .results {
 	margin-top: 50px;
 	text-align: center;

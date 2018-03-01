@@ -63,9 +63,4 @@ let playRound = (playerSelection, computerSelection) => {
       paraUserResult.textContent = playRound('scissors', computerSelection());
     })
 
-//Eventlistener for hovering over buttons
-playerChoiceRock.addEventListener('onmouseover', (e) => {
-  e.target.style.background = '#99ffcc';
-})
-
 
