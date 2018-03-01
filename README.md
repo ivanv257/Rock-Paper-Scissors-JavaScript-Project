@@ -5,9 +5,28 @@ Date started: 9 January 2018
 From The Odin Project's <a href="http://www.theodinproject.com">Curriculum</a> <br />
 
 <h2>Syntax</h2>
-<pre>
+<li>
+  <ol>In order to generate a random answer a math.random function was used.
+    <ul><pre>
+    let computerSelection = () => {
+  let randomCount = Math.random();
 
-</pre>
+  if (randomCount < 0.34) {
+    paraComputerResult.textContent = 'Computer selects rock';
+    return 'rock';
+  } else if (randomCount > 0.34 && randomCount < 0.68) {
+    paraComputerResult.textContent = 'Computer selects paper';
+    return 'paper';
+  } else {
+    paraComputerResult.textContent = 'Computer selects scissors';
+    return 'scissors';
+  }
+}
+    </pre></ul>
+  </ol>
+  <ol></ol>
+</li>
+
 
 
 <h2>Demo</h2>
