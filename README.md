@@ -14,7 +14,7 @@ let computerSelection = () => {
     paraComputerResult.textContent = 'Computer selects rock';
     return 'rock';
 </pre>
-<h3>Compare user and computer choice</h3>
+<h3>Compare User and Computer choice</h3>
 <pre>
 let playRound = (playerSelection, computerSelection) => {
   if (playerSelection === computerSelection) {
