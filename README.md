@@ -13,16 +13,10 @@ let computerSelection = () => {
   if (randomCount < 0.34) {
     paraComputerResult.textContent = 'Computer selects rock';
     return 'rock';
-```
-<h3>Compare User and Computer choice</h3>
-```javascript
-let playRound = (playerSelection, computerSelection) => {
-  if (playerSelection === computerSelection) {
-    return 'It is a tie';
-  } else if (playerSelection === 'rock' && computerSelection === 'paper') {
-    return 'Computer wins!';
     }
 ```
+<h3>Compare User and Computer choice</h3>
+
 
 <h2>Demo</h2>
 Link to Choose You Weapon Game --> <a href="https://ivanv257.github.io/Rock-Paper-Scissors-JavaScript-Project/">Play Now</a>
