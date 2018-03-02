@@ -24,9 +24,27 @@ let computerSelection = () => {
 }
 ```
 
-
 <h3>Compare User and Computer choice</h3>
 
+```javascript
+let playRound = (playerSelection, computerSelection) => {
+  if (playerSelection === computerSelection) {
+    return 'It is a tie';
+  } else if (playerSelection === 'rock' && computerSelection === 'paper') {
+    return 'Computer wins!';
+  } else if (playerSelection === 'rock' && computerSelection === 'scissors') {
+    return 'You win!';
+  } else if (playerSelection === 'paper' && computerSelection === 'rock') {
+    return 'You win!';
+  } else if (playerSelection === 'scissors' && computerSelection === 'rock') {
+    return 'Computer wins!';
+  } else if (playerSelection === 'scissors' && computerSelection === 'paper') {
+    return 'You win!';
+  } else if (playerSelection === 'paper' && computerSelection === 'scissors') {
+    return 'You lose!';
+  }
+}
+```
 
 <h2>Demo</h2>
 Link to Choose You Weapon Game --> <a href="https://ivanv257.github.io/Rock-Paper-Scissors-JavaScript-Project/">Play Now</a>
