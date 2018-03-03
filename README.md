@@ -4,6 +4,9 @@ Developer: Ivan van der Merwe <br>
 Date started: 9 January 2018
 From The Odin Project's <a href="http://www.theodinproject.com">Curriculum</a> <br />
 
+
+https://media.giphy.com/media/rfp9Znzj0NyWk/giphy.gif
+
 <h2>Syntax</h2>
 <h3>Generate Random Computer Choice</h3>
 
