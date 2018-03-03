@@ -2,7 +2,7 @@
 <br />
 Developer: Ivan van der Merwe <br>
 Date started: 9 January 2018
-From The Odin Project's <a href="http://www.theodinproject.com">Curriculum</a> <br />
+From The Odin Project's <a href="http://www.theodinproject.com">Curriculum</a> <br /><br />
 
 
 <img src="https://media.giphy.com/media/rfp9Znzj0NyWk/giphy.gif">
