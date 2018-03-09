@@ -6,7 +6,7 @@ From The Odin Project's <a href="http://www.theodinproject.com">Curriculum</a> <
 
 <img src="https://media.giphy.com/media/rfp9Znzj0NyWk/giphy.gif">
 
-<h2>Syntax</h2>
+<h2>My Solution</h2>
 <h3>Generate Random Computer Choice</h3>
 
 ```javascript
