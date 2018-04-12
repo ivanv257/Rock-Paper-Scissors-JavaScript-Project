@@ -1,17 +1,12 @@
 /* JavaScript Rock Paper Scissors Project
 Developer: Ivan van der Merwe */
 
-
 const playerChoiceRock = document.querySelector('#rock');
 const playerChoicePaper = document.querySelector('#paper');
 const playerChoiceScissors = document.querySelector('#scissors');
 
 const paraUserResult = document.querySelector('#userResult');
 const paraComputerResult = document.querySelector('#computerResult');
-
-
-  
-
 
 // Generate random Computer selection
 let computerSelection = () => {
